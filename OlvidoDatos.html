@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Cambiar Datos</title>
+</head>
+<style>
+    body {
+        background-image: url('./iMG/istockphoto-857660274-612x612.jpg');
+        background-color: rgba(8, 12, 103, 0.8);
+        background-blend-mode: overlay;
+        background-size:contain;
+    }
+    </style>
+
+<body class="bg-blue-100">
+    <div class="relative bg-green-500 bg-opacity-50 bg-blend-overlay" style="background-image: url('./iMG/istockphoto-857660274-612x612.jpg'); background-size: contain;">
+        
+      </div>
+      
+   
+    <div class="bg-White 300 text-Green text-left py-5">
+        <img  src="./iMG/logo.svg" width="50%" height="50%">
+      </div>
+      
+<div class="h-screen flex justify-between items-center">
+
+
+   <div class="ml-12  relative w-1/2 py-12 px-4 sm:px-6 lg:px-8  border-black-300 rounded-xl">
+
+    <h2 class="text-4xl font-bold mb-8 text-center text-blue-800 text-left">Banco Universitario</h2>
+    <h1 class="text-4xl font-bold mb-8 text-center text-gray-800">Falta poco solo unos paso más!</h1>
+    <p class="text-center">Ahora mucho más facil, para poder cambiar sus datos en el momento, en el que usted más lo prefiera, solo complete los datos, y estarás listo!</p>
+    
+   </div>
+   
+
+
+    <div class="mr-12">
+    <div class="<!-- min-h-screen--> flex items-center justify-center bg-gray-200 py-14 px-4 sm:px-6 lg:px-9 rounded-xl">
+        <div class="max-w-md w-full space-y-8">
+            <div>
+                <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+                    Restablecer Contraseña
+                </h2>
+                <p class="mt-2 text-center text-sm text-gray-600">
+                   Por favor ingrese los datos solicitados, para hacer el cambio!
+                </p>
+            </div>
+            
+            <form class="mt-8 space-y-6" action="#" method="POST">
+                <input type="hidden" name="remember" value="true">
+                <div class="rounded-md shadow-sm -space-y-px">
+                    <div>
+                        <label for="username" class="sr-only">Contraseña</label>
+                        <input id="username" name="username" type="text" autocomplete="username" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Contraseña">
+                    </div>
+                    <div>
+                        <label for="password" class="sr-only">Repita la Contraseña</label>
+                        <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Repita la Contraseña">
+                    </div>
+                </div>
+                
+                <div>
+                    <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Cambiar contraseña
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
